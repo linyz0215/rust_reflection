@@ -1,8 +1,9 @@
-use std::{ops::Mul, thread};
+use std::{fmt::Display, ops::Mul, thread};
 
 use crate::{Vector, dot_vector};
 use anyhow::Result;
 
+#[derive(Debug)]
 pub struct Matrix {
     pub data: Vector,
     pub row: i32,
@@ -80,7 +81,7 @@ pub fn multiply(matrix_a: &Matrix, matrix_b: &Matrix) -> Result<Matrix> {
             let msg = Msg::new(sender, msginput);
             tx.send(msg)?;
             Receiver.push(receiver);
-        }
+        }   
     }
 
     drop(tx);
@@ -140,5 +141,23 @@ mod tests {
         assert_eq!(c.data, Vector::new([7, 10, 15, 22]));
         //assert_eq!(format!("{:?}", c), "{7 10, 15 22}");
         Ok(())
+    }
+}
+
+impl Display for Matrix {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        let mut s = String::new();
+        for i in 0..self.row {
+            let start = (i * self.col) as usize;
+            let end = start + self.col as usize;
+            s.push_str("[ ");
+            let row_str = self.data[start..end].iter().map(|x| x.to_string() + " ").collect::<String>();
+            s.push_str(row_str.as_str());
+            s.push_str("]");
+            if i < self.row - 1 {
+                s.push_str(", ");
+            }
+        }
+        write!(f, "{}", s)
     }
 }

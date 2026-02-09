@@ -41,7 +41,8 @@ fn main() {
     let hello_str = std::str::from_utf8(hello_string).unwrap();
     println!("{}", hello_str);
     let _str6: String = "hello world".into();
-    
+    let str7 = &"hello world".to_string();
+    let str8 = str7.clone();
 }
 
 
