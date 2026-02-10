@@ -2,7 +2,6 @@ use core::time;
 use std::{thread};
 
 use anyhow::Result;
-use rand::Rng;
 use tokio::{fs, runtime::Builder, time::sleep};
 pub fn main() -> Result<()> {
     let handler = thread::spawn(move || {
