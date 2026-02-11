@@ -1,0 +1,30 @@
+  [2m2026-02-10T11:29:00.312692Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mListening on 0.0.0.0:8080[0m
+    [2;3mat[0m examples/tracing_practise.rs:37
+
+  [2m2026-02-10T11:33:25.594830Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/tracing_practise.rs:43
+    [2;3min[0m tracing_practise::[1mindex_handler[0m
+
+  [2m2026-02-10T11:33:25.595132Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 262µs, [1;32mtime.idle[0m[32m: 63.5µs[0m
+    [2;3mat[0m examples/tracing_practise.rs:43
+    [2;3min[0m tracing_practise::[1mindex_handler[0m
+
+  [2m2026-02-10T11:34:59.254895Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mListening on 0.0.0.0:8080[0m
+    [2;3mat[0m examples/tracing_practise.rs:37
+
+  [2m2026-02-10T11:35:02.280363Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/tracing_practise.rs:43
+    [2;3min[0m tracing_practise::[1mindex_handler[0m
+
+  [2m2026-02-10T11:35:02.280434Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 13.2µs, [1;32mtime.idle[0m[32m: 102µs[0m
+    [2;3mat[0m examples/tracing_practise.rs:43
+    [2;3min[0m tracing_practise::[1mindex_handler[0m
+
+  [2m2026-02-10T11:38:30.961125Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/tracing_practise.rs:43
+    [2;3min[0m tracing_practise::[1mindex_handler[0m
+
+  [2m2026-02-10T11:38:30.961202Z[0m [32m INFO[0m [1;32mtracing_practise[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 15.2µs, [1;32mtime.idle[0m[32m: 108µs[0m
+    [2;3mat[0m examples/tracing_practise.rs:43
+    [2;3min[0m tracing_practise::[1mindex_handler[0m
+

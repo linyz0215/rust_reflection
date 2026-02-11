@@ -1,0 +1,358 @@
+  [2m2026-02-10T13:24:47.517887Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:75
+
+  [2m2026-02-10T13:26:07.034324Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:81
+    [2;3min[0m http_get::[1mping[0m
+
+  [2m2026-02-10T13:26:07.034525Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 64.8µs, [1;32mtime.idle[0m[32m: 200µs[0m
+    [2;3mat[0m examples/http_get.rs:81
+    [2;3min[0m http_get::[1mping[0m
+
+  [2m2026-02-10T13:28:11.805163Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:81
+    [2;3min[0m http_get::[1mping[0m
+
+  [2m2026-02-10T13:28:11.805256Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 21.5µs, [1;32mtime.idle[0m[32m: 137µs[0m
+    [2;3mat[0m examples/http_get.rs:81
+    [2;3min[0m http_get::[1mping[0m
+
+  [2m2026-02-10T13:28:14.196974Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:28:14.197035Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 9.17µs, [1;32mtime.idle[0m[32m: 96.9µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:28:16.423923Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: Some(true) }
+
+  [2m2026-02-10T13:28:16.424097Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 11.0µs, [1;32mtime.idle[0m[32m: 205µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: Some(true) }
+
+  [2m2026-02-10T13:28:18.137473Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7, [1mq[0m: UserQuery { verbose: Some(false) }
+
+  [2m2026-02-10T13:28:18.137552Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 10.3µs, [1;32mtime.idle[0m[32m: 125µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7, [1mq[0m: UserQuery { verbose: Some(false) }
+
+  [2m2026-02-10T13:29:19.326913Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:81
+    [2;3min[0m http_get::[1mping[0m
+
+  [2m2026-02-10T13:29:19.327114Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 20.8µs, [1;32mtime.idle[0m[32m: 241µs[0m
+    [2;3mat[0m examples/http_get.rs:81
+    [2;3min[0m http_get::[1mping[0m
+
+  [2m2026-02-10T13:29:44.626154Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:29:44.626211Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 9.17µs, [1;32mtime.idle[0m[32m: 84.4µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:29:46.967881Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: Some(true) }
+
+  [2m2026-02-10T13:29:46.967982Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 13.8µs, [1;32mtime.idle[0m[32m: 143µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: Some(true) }
+
+  [2m2026-02-10T13:35:07.194886Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:35:07.194997Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 34.5µs, [1;32mtime.idle[0m[32m: 115µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:35:10.456197Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:35:10.456260Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 9.58µs, [1;32mtime.idle[0m[32m: 92.2µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:35:19.593392Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:35:19.593509Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 16.4µs, [1;32mtime.idle[0m[32m: 256µs[0m
+    [2;3mat[0m examples/http_get.rs:88
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42, [1mq[0m: UserQuery { verbose: None }
+
+  [2m2026-02-10T13:35:44.661537Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:51
+
+  [2m2026-02-10T13:35:44.955566Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:57
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42
+
+  [2m2026-02-10T13:35:44.955652Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 12.8µs, [1;32mtime.idle[0m[32m: 132µs[0m
+    [2;3mat[0m examples/http_get.rs:57
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42
+
+  [2m2026-02-10T13:35:46.698215Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:57
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:35:46.698298Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 8.33µs, [1;32mtime.idle[0m[32m: 111µs[0m
+    [2;3mat[0m examples/http_get.rs:57
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:45:14.807310Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:52
+
+  [2m2026-02-10T13:45:26.090543Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:58
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:45:26.090698Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 44.4µs, [1;32mtime.idle[0m[32m: 175µs[0m
+    [2;3mat[0m examples/http_get.rs:58
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:46:11.913783Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:58
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:46:11.913882Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 14.4µs, [1;32mtime.idle[0m[32m: 170µs[0m
+    [2;3mat[0m examples/http_get.rs:58
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:50:16.596396Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:108
+
+  [2m2026-02-10T13:50:18.683556Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42
+
+  [2m2026-02-10T13:50:18.683655Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 17.0µs, [1;32mtime.idle[0m[32m: 145µs[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42
+
+  [2m2026-02-10T13:50:48.951493Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42
+
+  [2m2026-02-10T13:50:48.951725Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 21.1µs, [1;32mtime.idle[0m[32m: 304µs[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 42
+
+  [2m2026-02-10T13:50:55.885921Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:50:55.885981Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 11.3µs, [1;32mtime.idle[0m[32m: 103µs[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:51:14.827356Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:51:14.827482Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 21.1µs, [1;32mtime.idle[0m[32m: 189µs[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:51:24.792271Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T13:51:24.792319Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 8.00µs, [1;32mtime.idle[0m[32m: 75.8µs[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T13:51:44.230966Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:51:44.231048Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 14.7µs, [1;32mtime.idle[0m[32m: 127µs[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T13:51:45.341407Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T13:51:45.341533Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 7.33µs, [1;32mtime.idle[0m[32m: 146µs[0m
+    [2;3mat[0m examples/http_get.rs:120
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T13:51:46.609536Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:51:46.609588Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 10.3µs, [1;32mtime.idle[0m[32m: 79.6µs[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:51:56.034835Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:51:56.034933Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 18.3µs, [1;32mtime.idle[0m[32m: 153µs[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:51:57.087356Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:51:57.087400Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 8.25µs, [1;32mtime.idle[0m[32m: 66.0µs[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:52:01.702689Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T13:52:01.702748Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 11.8µs, [1;32mtime.idle[0m[32m: 87.9µs[0m
+    [2;3mat[0m examples/http_get.rs:114
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:27:33.612109Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:105
+
+  [2m2026-02-10T14:27:35.078491Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:27:35.078537Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 8.17µs, [1;32mtime.idle[0m[32m: 71.1µs[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:27:38.814729Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:117
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T14:27:38.814792Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 9.92µs, [1;32mtime.idle[0m[32m: 92.4µs[0m
+    [2;3mat[0m examples/http_get.rs:117
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T14:27:41.140882Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:117
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T14:27:41.140939Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 9.62µs, [1;32mtime.idle[0m[32m: 85.2µs[0m
+    [2;3mat[0m examples/http_get.rs:117
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T14:27:44.040321Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:27:44.040384Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 14.2µs, [1;32mtime.idle[0m[32m: 90.2µs[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:27:57.393995Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:27:57.394093Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 16.5µs, [1;32mtime.idle[0m[32m: 153µs[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:31:20.660058Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:105
+
+  [2m2026-02-10T14:31:20.818790Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:31:20.818881Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 12.7µs, [1;32mtime.idle[0m[32m: 124µs[0m
+    [2;3mat[0m examples/http_get.rs:111
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T14:31:25.679830Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:117
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T14:31:25.679892Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 10.7µs, [1;32mtime.idle[0m[32m: 89.0µs[0m
+    [2;3mat[0m examples/http_get.rs:117
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T15:44:17.407013Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:124
+
+  [2m2026-02-10T15:44:23.066000Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:130
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T15:44:23.066081Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 14.8µs, [1;32mtime.idle[0m[32m: 124µs[0m
+    [2;3mat[0m examples/http_get.rs:130
+    [2;3min[0m http_get::[1mlist_users[0m
+
+  [2m2026-02-10T15:44:27.987601Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:147
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T15:44:27.987662Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 10.7µs, [1;32mtime.idle[0m[32m: 90.4µs[0m
+    [2;3mat[0m examples/http_get.rs:147
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T15:44:29.543191Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:147
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T15:44:29.543271Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 12.9µs, [1;32mtime.idle[0m[32m: 127µs[0m
+    [2;3mat[0m examples/http_get.rs:147
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T16:01:49.317267Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:125
+
+  [2m2026-02-10T16:02:57.364740Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:125
+
+  [2m2026-02-10T16:21:56.559841Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mListening on 0.0.0.0:3001[0m
+    [2;3mat[0m examples/http_get.rs:142
+
+  [2m2026-02-10T16:21:58.412460Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:148
+    [2;3min[0m http_get::[1mlist_users[0m [2;3mwith[0m [1mlimit_query[0m: LimitQuery { limit: 10 }
+
+  [2m2026-02-10T16:21:58.412563Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 18.0µs, [1;32mtime.idle[0m[32m: 150µs[0m
+    [2;3mat[0m examples/http_get.rs:148
+    [2;3min[0m http_get::[1mlist_users[0m [2;3mwith[0m [1mlimit_query[0m: LimitQuery { limit: 10 }
+
+  [2m2026-02-10T16:22:01.377948Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:148
+    [2;3min[0m http_get::[1mlist_users[0m [2;3mwith[0m [1mlimit_query[0m: LimitQuery { limit: 2 }
+
+  [2m2026-02-10T16:22:01.378010Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 11.7µs, [1;32mtime.idle[0m[32m: 91.2µs[0m
+    [2;3mat[0m examples/http_get.rs:148
+    [2;3min[0m http_get::[1mlist_users[0m [2;3mwith[0m [1mlimit_query[0m: LimitQuery { limit: 2 }
+
+  [2m2026-02-10T16:22:05.459477Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:148
+    [2;3min[0m http_get::[1mlist_users[0m [2;3mwith[0m [1mlimit_query[0m: LimitQuery { limit: 3 }
+
+  [2m2026-02-10T16:22:05.459536Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 11.7µs, [1;32mtime.idle[0m[32m: 88.6µs[0m
+    [2;3mat[0m examples/http_get.rs:148
+    [2;3min[0m http_get::[1mlist_users[0m [2;3mwith[0m [1mlimit_query[0m: LimitQuery { limit: 3 }
+
+  [2m2026-02-10T16:22:08.432899Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:174
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T16:22:08.432958Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 10.1µs, [1;32mtime.idle[0m[32m: 85.5µs[0m
+    [2;3mat[0m examples/http_get.rs:174
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 7
+
+  [2m2026-02-10T16:22:11.362526Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_get.rs:174
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
+  [2m2026-02-10T16:22:11.362586Z[0m [32m INFO[0m [1;32mhttp_get[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 9.88µs, [1;32mtime.idle[0m[32m: 90.0µs[0m
+    [2;3mat[0m examples/http_get.rs:174
+    [2;3min[0m http_get::[1mget_user[0m [2;3mwith[0m [1mid[0m: 99
+
