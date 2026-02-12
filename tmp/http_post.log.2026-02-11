@@ -1,0 +1,68 @@
+  [2m2026-02-11T16:38:30.106289Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:88
+
+  [2m2026-02-11T16:38:30.106409Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:91
+
+  [2m2026-02-11T16:40:43.443645Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:40:43.443746Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 18.1µs, [1;32mtime.idle[0m[32m: 132µs[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:41:29.496907Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:41:29.497010Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 24.9µs, [1;32mtime.idle[0m[32m: 146µs[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:11.046659Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:11.046760Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 19.0µs, [1;32mtime.idle[0m[32m: 154µs[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:21.347335Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:21.347433Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 19.9µs, [1;32mtime.idle[0m[32m: 145µs[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:31.627620Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:31.627669Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 9.50µs, [1;32mtime.idle[0m[32m: 69.2µs[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:52.296451Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:43:52.296548Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 19.3µs, [1;32mtime.idle[0m[32m: 142µs[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:45:41.682318Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:88
+
+  [2m2026-02-11T16:45:41.682435Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:91
+
+  [2m2026-02-11T16:45:45.402183Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-11T16:45:45.402268Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 14.3µs, [1;32mtime.idle[0m[32m: 122µs[0m
+    [2;3mat[0m examples/http_post.rs:107
+    [2;3min[0m http_post::[1msignup_handler[0m
+

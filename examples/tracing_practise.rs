@@ -14,7 +14,7 @@ use axum::routing::get;
 #[tokio::main]
 async fn main() -> Result<()> {
     let file_appender = tracing_appender::rolling::daily("tmp", "ecosystem.log");
-    let (non_blocking, _guard) = tracing_appender::non_blocking(file_appender);
+    let (non_blocking   , _guard) = tracing_appender::non_blocking(file_appender);
     let console = fmt::Layer::new()
         .with_span_events(FmtSpan::NEW | FmtSpan::CLOSE)
         .pretty()

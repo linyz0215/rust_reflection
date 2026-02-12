@@ -1,9 +1,85 @@
 @base = http://localhost:8080
 
 ###
-GET {{base}}/users
+POST {{base}}/users/create
+Content-Type: application/json
+
+{
+    "name": "linyz",
+    "email": "linyz@example.com",
+    "gender": "male",
+    "teenager": false,
+    "password": "password123"
+}
+###
+POST {{base}}/users/create
+Content-Type: application/json
+
+{
+    "name": "uu",
+    "email": "uu@example.com",
+    "gender": "female",
+    "teenager": false,
+    "password": "password123"
+}
+###
+POST {{base}}/users/create
+Content-Type: application/json
+
+{
+    "name": "alice",
+    "email": "alice@example.com",
+    "gender": "female",
+    "teenager": false,
+    "password": "password123"
+}
+###
+POST {{base}}/users/create
+Content-Type: application/json
+
+{
+    "name": "bob",
+    "email": "bob@example.com",
+    "teenager": false,
+    "password": "password123"
+}
+###
+POST {{base}}/users/create
+Content-Type: application/json
+
+{
+    "name": "bob",
+    "email": "bob@example.com",
+    "gender": "male",
+    "teenager": false,
+    "password": "password123"
+}
+###
+POST {{base}}/users/create
+Content-Type: application/json
+
+{
+    "name": "tom",
+    "email": "tom@example.com",
+    "gender": "male",
+    "teenager": false,
+    "password": "password123"
+}
+###
+
+GET {{base}}/users/list
+Accept: application/json
+
+
+###
+GET {{base}}/users/list_with_query?limit=4
 Accept: application/json
 
 ###
-GET {{base}}/users/query?teenager=true&limit=3
-Accept: application/json
+POST {{base}}/users/signin
+Content-Type: application/json
+
+{
+    "email": "linyz@exmple.com",
+    "password": "password123"
+}
