@@ -1,6 +1,7 @@
 @base = http://localhost:8080
 
 ###
+# @name linyz_jwt_token
 POST {{base}}/users/create
 Content-Type: application/json
 
@@ -12,6 +13,7 @@ Content-Type: application/json
     "password": "password123"
 }
 ###
+# @name uu_jwt_token
 POST {{base}}/users/create
 Content-Type: application/json
 
@@ -23,6 +25,7 @@ Content-Type: application/json
     "password": "password123"
 }
 ###
+# @name alice_jwt_token
 POST {{base}}/users/create
 Content-Type: application/json
 
@@ -44,6 +47,7 @@ Content-Type: application/json
     "password": "password123"
 }
 ###
+# @name bob_jwt_token
 POST {{base}}/users/create
 Content-Type: application/json
 
@@ -55,6 +59,7 @@ Content-Type: application/json
     "password": "password123"
 }
 ###
+# @name tom_jwt_token
 POST {{base}}/users/create
 Content-Type: application/json
 
@@ -76,6 +81,7 @@ GET {{base}}/users/list_with_query?limit=4
 Accept: application/json
 
 ###
+
 POST {{base}}/users/signin
 Content-Type: application/json
 
@@ -83,3 +89,64 @@ Content-Type: application/json
     "email": "linyz@exmple.com",
     "password": "password123"
 }
+
+###
+POST {{base}}/users/create_chat
+Authorization: Bearer {{linyz_jwt_token.response.body.token}}
+Content-Type: application/json
+
+{
+    "chat_id": 1,
+    "chat_name": "rust-study"
+}
+
+###
+POST {{base}}/users/create_chat
+Authorization: Bearer {{uu_jwt_token.response.body.token}}
+Content-Type: application/json
+
+{
+    "chat_id": 1,
+    "chat_name": "lalalal"
+}
+###
+POST {{base}}/users/join_chat
+Authorization: Bearer {{uu_jwt_token.response.body.token}}
+Content-Type: application/json
+
+{
+    "chat_id": 1
+}
+
+
+### upload file
+POST {{base}}/users/message/upload_file/1
+Authorization: Bearer {{linyz_jwt_token.response.body.token}}
+Content-Type: multipart/form-data; boundary=MyBoundary
+
+--MyBoundary
+Content-Disposition: form-data;filename="cats.PNG"
+Content-Type: application/octet-stream
+
+< /Users/linyz/snapshot/cats.png
+--MyBoundary
+Content-Disposition: form-data; filename="hello.txt"
+
+Hello, world!
+--MyBoundary--
+
+###
+GET {{base}}/users/message/files/1/943/a70/2d06f34599aee1f8da8ef9f7296031d699.txt
+Authorization: Bearer {{linyz_jwt_token.response.body.token}}
+
+###
+POST {{base}}/users/message/send_message/1
+Authorization: Bearer {{linyz_jwt_token.response.body.token}}
+Content-Type: application/json
+
+{
+    "content": "Hello, this is a message with files.",
+    "files": ["/tmp/chat_server/1/file/116/544/8a23b0408bf7df190550192193988d592e.PNG",
+    "/tmp/chat_server/1/file/943/a70/2d06f34599aee1f8da8ef9f7296031d699.txt"]
+}
+    

@@ -1,0 +1,354 @@
+  [2m2026-02-13T09:13:18.605541Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:173
+
+  [2m2026-02-13T09:13:18.605593Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:176
+
+  [2m2026-02-13T09:54:01.992988Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:02.256951Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 264ms, [1;32mtime.idle[0m[32m: 130µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:04.711810Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:04.966837Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 255ms, [1;32mtime.idle[0m[32m: 89.4µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:35.815988Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:36.081262Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 265ms, [1;32mtime.idle[0m[32m: 90.3µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:39.959396Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:39.959439Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 8.25µs, [1;32mtime.idle[0m[32m: 67.5µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:43.348200Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T09:54:43.609975Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 262ms, [1;32mtime.idle[0m[32m: 81.5µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T12:31:27.057146Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T12:31:27.308647Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 252ms, [1;32mtime.idle[0m[32m: 91.8µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T12:31:30.612064Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:197
+    [2;3min[0m http_post::[1mlist_users_handler[0m
+
+  [2m2026-02-13T12:31:30.612116Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 20.0µs, [1;32mtime.idle[0m[32m: 57.7µs[0m
+    [2;3mat[0m examples/http_post.rs:197
+    [2;3min[0m http_post::[1mlist_users_handler[0m
+
+  [2m2026-02-13T12:39:04.600883Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:248
+    [2;3min[0m http_post::[1mquery_users_handler[0m [2;3mwith[0m [1mquery[0m: UserFilter { limit: 4, ordering: None }
+
+  [2m2026-02-13T12:39:04.600946Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 26.1µs, [1;32mtime.idle[0m[32m: 66.4µs[0m
+    [2;3mat[0m examples/http_post.rs:248
+    [2;3min[0m http_post::[1mquery_users_handler[0m [2;3mwith[0m [1mquery[0m: UserFilter { limit: 4, ordering: None }
+
+  [2m2026-02-13T12:39:06.210940Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:197
+    [2;3min[0m http_post::[1mlist_users_handler[0m
+
+  [2m2026-02-13T12:39:06.211003Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 27.5µs, [1;32mtime.idle[0m[32m: 61.7µs[0m
+    [2;3mat[0m examples/http_post.rs:197
+    [2;3min[0m http_post::[1mlist_users_handler[0m
+
+  [2m2026-02-13T13:04:31.544626Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:173
+
+  [2m2026-02-13T13:04:31.544683Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:176
+
+  [2m2026-02-13T13:09:18.074610Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:09:18.314509Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 240ms, [1;32mtime.idle[0m[32m: 108µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:10:14.636406Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:10:14.636472Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 15.6µs, [1;32mtime.idle[0m[32m: 91.6µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:10:27.556621Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:173
+
+  [2m2026-02-13T13:10:27.556715Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:176
+
+  [2m2026-02-13T13:10:30.632162Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:10:30.880549Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 248ms, [1;32mtime.idle[0m[32m: 189µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:13:10.607613Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:297
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:13:10.607748Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 51.8µs, [1;32mtime.idle[0m[32m: 150µs[0m
+    [2;3mat[0m examples/http_post.rs:297
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:13:22.494018Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:13:22.735264Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 241ms, [1;32mtime.idle[0m[32m: 162µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:13:24.665737Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:13:24.903798Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 238ms, [1;32mtime.idle[0m[32m: 111µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:17:29.687876Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:17:29.927169Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 239ms, [1;32mtime.idle[0m[32m: 156µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:17:32.108703Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:17:32.346766Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 238ms, [1;32mtime.idle[0m[32m: 101µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:20.031696Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:20.031761Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 20.7µs, [1;32mtime.idle[0m[32m: 80.4µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:23.272764Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:23.272845Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 28.5µs, [1;32mtime.idle[0m[32m: 93.9µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:41.147238Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:173
+
+  [2m2026-02-13T13:30:41.147304Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:176
+
+  [2m2026-02-13T13:30:42.768279Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:42.997138Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 229ms, [1;32mtime.idle[0m[32m: 84.9µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:44.639305Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:44.876089Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 237ms, [1;32mtime.idle[0m[32m: 133µs[0m
+    [2;3mat[0m examples/http_post.rs:207
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:30:48.264090Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:297
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:30:48.264176Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 34.4µs, [1;32mtime.idle[0m[32m: 92.3µs[0m
+    [2;3mat[0m examples/http_post.rs:297
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:30:51.559199Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:297
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "lalalal" }
+
+  [2m2026-02-13T13:30:51.559277Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 29.6µs, [1;32mtime.idle[0m[32m: 87.0µs[0m
+    [2;3mat[0m examples/http_post.rs:297
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "lalalal" }
+
+  [2m2026-02-13T13:31:45.083615Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:311
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 2 }
+
+  [2m2026-02-13T13:31:45.083736Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 43.3µs, [1;32mtime.idle[0m[32m: 145µs[0m
+    [2;3mat[0m examples/http_post.rs:311
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 2 }
+
+  [2m2026-02-13T13:31:52.916446Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:311
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
+  [2m2026-02-13T13:31:52.916576Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 51.3µs, [1;32mtime.idle[0m[32m: 141µs[0m
+    [2;3mat[0m examples/http_post.rs:311
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
+  [2m2026-02-13T13:32:50.952005Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:174
+
+  [2m2026-02-13T13:32:50.952074Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:177
+
+  [2m2026-02-13T13:32:52.351343Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:208
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:32:52.589617Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 238ms, [1;32mtime.idle[0m[32m: 160µs[0m
+    [2;3mat[0m examples/http_post.rs:208
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:32:53.665893Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:208
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:32:53.899493Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 234ms, [1;32mtime.idle[0m[32m: 103µs[0m
+    [2;3mat[0m examples/http_post.rs:208
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:33:01.475935Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:298
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:33:01.476012Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 30.4µs, [1;32mtime.idle[0m[32m: 83.9µs[0m
+    [2;3mat[0m examples/http_post.rs:298
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:33:04.294610Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:312
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
+  [2m2026-02-13T13:33:04.294746Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 55.5µs, [1;32mtime.idle[0m[32m: 149µs[0m
+    [2;3mat[0m examples/http_post.rs:312
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
+  [2m2026-02-13T13:34:07.460182Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:176
+
+  [2m2026-02-13T13:34:07.460256Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:179
+
+  [2m2026-02-13T13:34:11.102804Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:34:11.345402Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 242ms, [1;32mtime.idle[0m[32m: 285µs[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:34:13.388220Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:34:13.620120Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 232ms, [1;32mtime.idle[0m[32m: 98.2µs[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:34:18.538905Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:34:18.539001Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 46.1µs, [1;32mtime.idle[0m[32m: 90.1µs[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:34:22.572762Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "lalalal" }
+
+  [2m2026-02-13T13:34:22.572834Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 27.0µs, [1;32mtime.idle[0m[32m: 84.3µs[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "lalalal" }
+
+  [2m2026-02-13T13:34:23.619331Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:314
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
+  [2m2026-02-13T13:34:23.619416Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 35.5µs, [1;32mtime.idle[0m[32m: 90.5µs[0m
+    [2;3mat[0m examples/http_post.rs:314
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
+  [2m2026-02-13T13:34:55.786551Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mListening on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:176
+
+  [2m2026-02-13T13:34:55.786619Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mTcpListener initialized on http://127.0.0.1:8080[0m
+    [2;3mat[0m examples/http_post.rs:179
+
+  [2m2026-02-13T13:34:57.409361Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:34:57.650615Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 241ms, [1;32mtime.idle[0m[32m: 230µs[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:34:58.629511Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:34:58.865778Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 236ms, [1;32mtime.idle[0m[32m: 134µs[0m
+    [2;3mat[0m examples/http_post.rs:210
+    [2;3min[0m http_post::[1msignup_handler[0m
+
+  [2m2026-02-13T13:35:01.625198Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:35:01.625285Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 34.1µs, [1;32mtime.idle[0m[32m: 95.4µs[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 1, name: "linyz", email: "linyz@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "rust-study" }
+
+  [2m2026-02-13T13:35:02.675265Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "lalalal" }
+
+  [2m2026-02-13T13:35:02.675339Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 27.8µs, [1;32mtime.idle[0m[32m: 82.2µs[0m
+    [2;3mat[0m examples/http_post.rs:300
+    [2;3min[0m http_post::[1mcreate_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mchat[0m: CreateChatRequest { chat_id: 1, chat_name: "lalalal" }
+
+  [2m2026-02-13T13:35:04.507615Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mnew[0m
+    [2;3mat[0m examples/http_post.rs:314
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
+  [2m2026-02-13T13:35:04.507692Z[0m [32m INFO[0m [1;32mhttp_post[0m[32m: [32mclose, [1;32mtime.busy[0m[32m: 32.5µs, [1;32mtime.idle[0m[32m: 83.3µs[0m
+    [2;3mat[0m examples/http_post.rs:314
+    [2;3min[0m http_post::[1mjoin_chat_handler[0m [2;3mwith[0m [1muser[0m: JwtUser { id: 2, name: "uu", email: "uu@example.com" }, [1mjoin_chat[0m: JoinChatRequest { chat_id: 1 }
+
