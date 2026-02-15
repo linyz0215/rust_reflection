@@ -1,0 +1,2 @@
+database:
+  url: "postgres://linyz@localhost/test_sqlx_rust"
