@@ -5,10 +5,10 @@ use anyhow::Result;
 use chrono::{DateTime, Utc};
 use serde::Deserialize;
 use sha1::{Digest, digest::generic_array::sequence::Lengthen};
+use sqlx::Executor;
 use sqlx::FromRow;
 use thiserror::Error;
 use tokio::fs;
-use sqlx::Executor;
 #[derive(Deserialize, Debug)]
 struct Config {
     database: DatabaseConfig,
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS users(
   type user_type NOT NULL
 );
 */
-#[derive(sqlx::Type, Debug)]
+#[derive(sqlx::Type, Debug, PartialEq)]
 #[sqlx(type_name = "user_type", rename_all = "snake_case")]
 enum UserType {
     regular,
@@ -50,7 +50,7 @@ CREATE TYPE chat_type AS ENUM(
   'public_channel'
 );
 */
-#[derive(sqlx::Type, Debug)]
+#[derive(sqlx::Type, Debug, PartialEq)]
 #[sqlx(type_name = "chat_type", rename_all = "snake_case")]
 enum ChatType {
     single,
@@ -74,7 +74,7 @@ struct Chat {
     members: Vec<i64>,
 }
 
-#[derive(FromRow, Debug)]
+#[derive(FromRow, Debug, PartialEq)]
 struct users {
     id: i64,
     name: String,
@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS messages (
   created_at timestamptz DEFAULT CURRENT_TIMESTAMP
 );
 */
-#[derive(FromRow, Debug)]
+#[derive(FromRow, Debug, PartialEq)]
 
 struct messages {
     message_id: i64,
@@ -102,13 +102,14 @@ struct messages {
     file: Vec<String>,
     created_at: DateTime<Utc>,
 }
+
 #[tokio::main]
 async fn main() -> Result<()> {
     let config = Config::load()?;
     let pool = sqlx::PgPool::connect(&config.database.url).await?;
     let sql = include_str!("../fixtures/test.sql").split(';');
     let mut ts = pool.begin().await.expect("begin transaction failed");
-    
+
     for s in sql {
         if s.trim().is_empty() {
             continue;
@@ -121,7 +122,8 @@ async fn main() -> Result<()> {
         SELECT * FROM users
         "#,
     )
-    .fetch_all(&pool).await?;
+    .fetch_all(&pool)
+    .await?;
     let path1 = "/Users/linyz/snapshot/cats.PNG";
     let ext1 = path1.split(".").last().unwrap_or("");
     let file_path = PathBuf::from("/Users/linyz/snapshot/cats.PNG");
@@ -176,5 +178,38 @@ impl Config {
             _ => anyhow::bail!("No configuration file found"),
         }?;
         Ok(config)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use sqlx_db_tester::TestPg;
+
+    use super::*;
+
+    #[tokio::test]
+    async fn test_config_load() -> Result<()> {
+        let url = "postgres://linyz@localhost/test_sqlx_rust".to_string();
+        let tdb = TestPg::new(url, std::path::Path::new("migrations"));
+        let pool = tdb.get_pool().await;
+        let sql = include_str!("../fixtures/test.sql").split(';');
+        let mut ts = pool.begin().await.expect("begin transaction failed");
+        for s in sql {
+            if s.trim().is_empty() {
+                continue;
+            }
+            ts.execute(s).await.expect("execute sql failed");
+        }
+        ts.commit().await.expect("commit transaction failed");
+
+        let row: Vec<users> = sqlx::query_as(
+            r#"
+            SELECT * FROM users
+            "#,
+        )
+        .fetch_all(&pool)
+        .await?;
+        assert_eq!(row, vec![]);
+        Ok(())
     }
 }
