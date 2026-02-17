@@ -149,4 +149,19 @@ Content-Type: application/json
     "files": ["/tmp/chat_server/1/file/116/544/8a23b0408bf7df190550192193988d592e.PNG",
     "/tmp/chat_server/1/file/943/a70/2d06f34599aee1f8da8ef9f7296031d699.txt"]
 }
-    
+###
+
+POST http://localhost:8080/route
+Content-Type: application/json
+
+{
+    "url": "https://google.com"
+}
+
+
+###
+
+
+GET http://127.0.0.1:8080/redirect/jcu0sA
+
+###

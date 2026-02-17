@@ -23,7 +23,7 @@ struct State {
 
 struct Peer {
     username: String,
-    sender: SplitStream<Framed<TcpStream,LinesCodec>>
+    receiver: SplitStream<Framed<TcpStream,LinesCodec>>
 }
 
 enum Message {
@@ -79,7 +79,7 @@ async fn handle_client(state: Arc<State>, stream: TcpStream, addr: SocketAddr) -
     let message = Arc::new(Message::user_joined(peer.username.clone()));
     state.broadcast(addr, message).await;
 
-    while let Some(line) = peer.sender.next().await {
+    while let Some(line) = peer.receiver.next().await {
         let line = match line {
             Ok(line) => line,
             Err(e) => {
@@ -129,7 +129,7 @@ impl State {
         });
         Ok(Peer {
             username,
-            sender: stream_rceiver,
+            receiver: stream_rceiver,
         })
     }
 }
